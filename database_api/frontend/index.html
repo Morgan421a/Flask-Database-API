@@ -8,10 +8,18 @@
     <body>
        <h1>Welcome!</h1> 
        <div class="input-holder">
-            <input type="text" class="input" id="brand-input" name="brand" placeholder="Car Brand:">
-            <input type="text" class="input" id="color-input" name="colour" placeholder="Car Colour:">
-            <input type="text" class="input" id="price-input" name="price" placeholder="Car Price £:">
-            <span class="used-line">Used:<input type="checkbox" id="condition-input" name="condition"></span>
+            <tr class="table" id="table-headers">
+                <th>Brand</th>
+                <th>Colour</th>
+                <th>Price</th>
+                <th>Used</th>
+            </tr>
+            <tr class="table" id="table-data">
+                <td><input type="text" class="input" id="brand-input" name="brand" placeholder="Car Brand:"></td>
+                <td><input type="text" class="input" id="color-input" name="colour" placeholder="Car Colour:"></td>
+                <td><input type="text" class="input" id="price-input" name="price" placeholder="Car Price £:"></td>
+                <td><input type="checkbox" id="condition-input" name="condition"></span></td>
+            </tr>
        </div>
        <input type="submit" class="data-submit" name="submit-data" value="Please fill all fields first" disabled>
        <button class="show-table">Show Table</button>

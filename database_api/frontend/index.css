@@ -34,3 +34,8 @@ input::placeholder, span {
    margin: auto;
    margin-top: 10px;
 }
+
+tr {
+   display: flex;
+   flex-direction: column;
+}
