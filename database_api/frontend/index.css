@@ -1,0 +1,36 @@
+h1 {
+   color: red;
+   text-align: center;
+}
+
+div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+input::placeholder, span {
+   font-weight: bold;
+   color: black;
+}
+
+#condition-input {
+   vertical-align: middle;
+}
+
+.data-submit {
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   width: fit-content;
+}
+
+#condition-input {
+   cursor: pointer;
+}
+
+.show-table {
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+}
