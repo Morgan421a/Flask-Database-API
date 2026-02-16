@@ -8,18 +8,20 @@
     <body>
        <h1>Welcome!</h1> 
        <div class="input-holder">
-            <tr class="table" id="table-headers">
-                <th>Brand</th>
-                <th>Colour</th>
-                <th>Price</th>
-                <th>Used</th>
-            </tr>
-            <tr class="table" id="table-data">
-                <td><input type="text" class="input" id="brand-input" name="brand" placeholder="Car Brand:"></td>
-                <td><input type="text" class="input" id="color-input" name="colour" placeholder="Car Colour:"></td>
-                <td><input type="text" class="input" id="price-input" name="price" placeholder="Car Price £:"></td>
-                <td><input type="checkbox" id="condition-input" name="condition"></span></td>
-            </tr>
+            <table>
+                <tr class="table" id="table-headers">
+                    <th>Brand</th>
+                    <th>Colour</th>
+                    <th>Price</th>
+                    <th>Used</th>
+                </tr>
+                <tr class="table" id="table-data">
+                    <td><input type="text" class="input" id="brand-input" name="brand" placeholder="Car Brand:"></td>
+                    <td><input type="text" class="input" id="color-input" name="colour" placeholder="Car Colour:"></td>
+                    <td><input type="text" class="input" id="price-input" name="price" placeholder="Car Price £:"></td>
+                    <td><input type="checkbox" id="condition-input" name="condition"></span></td>
+                </tr>
+            </table>
        </div>
        <input type="submit" class="data-submit" name="submit-data" value="Please fill all fields first" disabled>
        <button class="show-table">Show Table</button>
